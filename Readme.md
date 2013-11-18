@@ -27,6 +27,8 @@ var express = require('express')
   , csv = require('express-csv')
   , app = module.exports = express.createServer();
 
+csv.encoding = 'win1251';
+
 app.get('/', function(req, res) {
   res.csv([
     ["a", "b", "c"]
