@@ -1,5 +1,5 @@
 {
-  "name": "express-csv"
+  "name": "express-csv-enc"
 , "description": "express-csv provides response csv easily to express with encodings."
 , "version": "0.6.1"
 , "author": "Seiya Konno <nulltask@gmail.com>"
