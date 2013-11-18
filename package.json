@@ -1,11 +1,12 @@
 {
   "name": "express-csv"
-, "description": "express-csv provides response csv easily to express."
-, "version": "0.6.0"
+, "description": "express-csv provides response csv easily to express with encodings."
+, "version": "0.6.1"
 , "author": "Seiya Konno <nulltask@gmail.com>"
 , "contributors": [
     { "name": "Matthew Blackshaw", "web": "http://mattblackshaw.com" }
   , { "name": "Craig McDonald", "web": "http://thrackle.com" }
+  , { "name": "Maxim Pashkov <bjaka.max@gmail.com>" }
   ]
 , "devDependencies": {
     "mocha": "*"
@@ -14,7 +15,7 @@
   , "express": "2"
   }
 , "keywords": ["express", "csv"]
-, "repository": "git://github.com/nulltask/express-csv.git"
+, "repository": "https://github.com/bjaka-max/express-csv-enc.git"
 , "main": "index"
 , "engines": {
     "node": "0.6 || 0.8 || 0.10"
@@ -22,5 +23,8 @@
 , "scripts": {
     "test": "mocha"
   , "prepublish": "make test"
+  }
+, "dependencies": {
+    "iconv-lite": "2.0.x"
   }
 }
