@@ -1,12 +1,12 @@
 {
   "name": "express-csv-enc"
-, "description": "express-csv provides response csv easily to express with encodings."
+, "description": "express-csv-enc provides response csv easily to express with encodings."
 , "version": "0.6.1"
-, "author": "Seiya Konno <nulltask@gmail.com>"
+, "author": "Maxim Pashkov <bjaka.max@gmail.com>"
 , "contributors": [
     { "name": "Matthew Blackshaw", "web": "http://mattblackshaw.com" }
   , { "name": "Craig McDonald", "web": "http://thrackle.com" }
-  , { "name": "Maxim Pashkov <bjaka.max@gmail.com>" }
+  , { "name": "Seiya Konno <nulltask@gmail.com>" }
   ]
 , "devDependencies": {
     "mocha": "*"
