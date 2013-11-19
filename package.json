@@ -1,30 +1,43 @@
 {
-  "name": "express-csv-enc"
-, "description": "express-csv-enc provides response csv easily to express with encodings."
-, "version": "0.6.1"
-, "author": "Maxim Pashkov <bjaka.max@gmail.com>"
-, "contributors": [
-    { "name": "Matthew Blackshaw", "web": "http://mattblackshaw.com" }
-  , { "name": "Craig McDonald", "web": "http://thrackle.com" }
-  , { "name": "Seiya Konno <nulltask@gmail.com>" }
-  ]
-, "devDependencies": {
-    "mocha": "*"
-  , "should": "*"
-  , "superagent": "*"
-  , "express": "2"
-  }
-, "keywords": ["express", "csv"]
-, "repository": "https://github.com/bjaka-max/express-csv-enc.git"
-, "main": "index"
-, "engines": {
+  "name": "express-csv-enc",
+  "description": "express-csv-enc provides response csv easily to express with encodings.",
+  "version": "0.6.4",
+  "author": "Maxim Pashkov <bjaka.max@gmail.com>",
+  "contributors": [
+    "Matthew Blackshaw (http://mattblackshaw.com)",
+    "Craig McDonald (http://thrackle.com)",
+    "Seiya Konno <nulltask@gmail.com>"
+  ],
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*",
+    "superagent": "*",
+    "express": "2"
+  },
+  "keywords": [
+    "express",
+    "csv"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bjaka-max/express-csv-enc.git"
+  },
+  "main": "index",
+  "engines": {
     "node": "0.6 || 0.8 || 0.10"
-  }
-, "scripts": {
-    "test": "mocha"
-  , "prepublish": "make test"
-  }
-, "dependencies": {
-    "iconv-lite": "2.0.x"
-  }
+  },
+  "scripts": {
+    "test": "mocha",
+    "prepublish": "make test"
+  },
+  "dependencies": {
+    "iconv-lite": "0.2.x"
+  },
+  "bugs": {
+    "url": "https://github.com/bjaka-max/express-csv-enc/issues"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "license": "BSD-2-Clause"
 }
